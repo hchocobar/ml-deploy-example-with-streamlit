@@ -8,8 +8,7 @@ class_dict = {"0": "Iris setosa",
               "2": "Iris virginica"}
 
 st.title("Iris - Model prediction")
-st.subheader('Power by:')
-st.markdown("""[Héctor Chocobar Torrejón](https://chocobar.net)""")
+st.markdown("""Power by: [Héctor Chocobar Torrejón](https://chocobar.net)""")
 st.divider()
 
 val1 = st.slider("Petal width", min_value=0.1, max_value=2.5, step=0.1)
